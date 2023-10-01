@@ -21,6 +21,10 @@
   z-index: 1000;
   background: var(--projectCardColor);
 
+  #desktop {
+    display: none;
+  }
+
   .logo a {
     color: var(--textColor);
     font-weight: 600;
@@ -97,7 +101,11 @@
   .closeNavBar {
     display: none;
   }
+
   .header {
+    #desktop {
+      display: block;
+    }
     // background-color: red;
     padding: 2.5rem 2rem;
     .navBar {
